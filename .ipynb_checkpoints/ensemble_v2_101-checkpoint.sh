@@ -1,0 +1,1 @@
+python ensemble_uav_v2_101_save.py --dataset uav-v2 --joint-dir ./work_dir/uav/ctrgcn_joint --bone-dir ./work_dir/uav/ctrgcn_bone --joint-motion-dir ./work_dir/uav/ctrgcn_joint_tta --bone-motion-dir ./work_dir/uav/ctrgcn_bone_longtail 
