@@ -67,4 +67,4 @@ We express our gratitude to the original authors for their contributions!
 
 ## Language Options
 
-[Switch to 中文版](README.cn.md)
+<a href="README.cn.md" style="display:inline-block; padding:8px 16px; background-color:#007bff; color:white; text-decoration:none; border-radius:4px;">Switch to 中文版</a>
