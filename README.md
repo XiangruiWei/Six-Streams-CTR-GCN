@@ -64,3 +64,7 @@ We anticipate participating in the national finals soon, where we plan to explor
 This repository is based on the work from [MS-CTR-GCN](https://github.com/CarefreeSun/MS-CTR-GCN) and [ICMEW2024-Track10](https://github.com/liujf69/ICMEW2024-Track10). 
 
 We express our gratitude to the original authors for their contributions!
+
+## Language Options
+
+[Switch to 中文版](README.cn.md)
