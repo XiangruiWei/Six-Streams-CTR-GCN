@@ -1,6 +1,6 @@
 # Six-Streams CTR-GCN
 
-该仓库实现了我们团队 **骼固鼎芯** 为 [2024年第六届全球校园人工智能算法精英大赛 - 基于无人机的人体行为识别](https://www.saikr.com/vse/50186) 开发的方法。
+该仓库为队伍 **骼固鼎芯** 参加 [2024年第六届全球校园人工智能算法精英大赛 - 基于无人机的人体行为识别](https://www.saikr.com/vse/50186) 初赛提交的参赛代码。
 
 ## 数据准备
 
@@ -12,10 +12,10 @@
 
 ## 训练模型
 
-我们提供了方便的脚本来训练这六个流：
+我们提供脚本来训练这六个流：
 
 ```
-bash复制代码$ sh train_uav_joint.sh
+$ sh train_uav_joint.sh
 $ sh train_uav_bone.sh
 $ sh train_uav_joint_motion.sh
 $ sh train_uav_bone_motion.sh
@@ -27,7 +27,7 @@ $ sh train_uav_bone_longtail.sh
 
 ## 测试模型
 
-我们也提供了方便的脚本来测试这六个流：
+我们也提供了脚本来测试这六个流：
 
 ```
 bash复制代码$ sh test_joint.sh
@@ -45,19 +45,23 @@ $ sh test_bone_longtail.sh
 我们提供了找到最佳 alpha 参数和集成分数的方法：
 
 ```
-bash复制代码$ sh ensemble_find_best.sh 
+$ sh ensemble_find_best.sh 
 $ python ensemble_score.py
 ```
 
 ## 我们的成果
 
-最佳权重和分数（以 pkl 格式）将保存在 `./weights` 目录中。
+最佳权重和分数将保存在 `./weights` 目录中。
 
 对于 test_B 数据集的分数，将以 npy 和 pkl 格式存储在 `./scores` 目录中。我们的最终结果 `fused_score.npy` 已提交用于排名。
 
+我们已将work_dir, weights, scores三个文件夹的内容打包上传至Google Drive，请通过下方链接获取：
+
+https://drive.google.com/file/d/1EEOFR_JpSjCZw_2wKhjgIkiOG19sPACd/view?usp=drive_link
+
 ## 未来工作
 
-我们预计将很快参加全国决赛，并计划探索新模型。请关注我们的后续工作！
+我们期待能够入围全国决赛，并计划探索新模型。请关注我们的后续工作！
 
 ## 致谢
 
